@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;800;900&display=swap');
 :root {
     --blue-1: #3c429E;
     --blue-2: #4c52AD;
     --yellow-1: #FAC742;
-    --white: #FFF;
+    --white: #111;
     --grey-1: #EDEDED;
     --shadow-dark: rgba(0, 0, 0, 0.3);
     --shadow-light: rgba(255, 255, 255, 0.1);
@@ -16,11 +17,11 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 16px;
     width: 100%;
     height: 100vh;
-    background-color: var(--blue-1);
+    background-color: #00A0EE;
 
     display: flex;
     align-items: center;
