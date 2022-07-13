@@ -34,7 +34,7 @@
         }
     
         .temperature {
-            color: var(--white);
+            color: var(--black);
             font-size: 4em;
             text-align: center;
             font-weight: 900;
@@ -43,15 +43,15 @@
 
         
         .location, .tempo {
-            color: var(--white);
+            color: var(--black);
             text-align: center;
             font-size: 1.2em;
         }
 
         .more-info-label {
             bottom:0;
-            color: #FFF;  
-            background-color: #111; 
+            color: var(--white);  
+            background-color: var(--black); 
             position: relative;
             top: 1.3em;
             width: 100%;
@@ -59,7 +59,7 @@
 
         .more-info-container {
     
-            background-color: #fbfcff;
+            background-color: var(--bck-color);
             margin-top: 1em;
             padding: 1em;
             display: flex;
@@ -82,7 +82,7 @@
                         width: 1.5em;
                     }
                     span {
-                        color: var(--white);
+                        color: var( --black);
                         font-size: 0.8em;
                     }
                 }
@@ -92,7 +92,7 @@
                     display: flex;
                     justify-content: flex-start;
                     align-items: center;
-                    color: var(--white);
+                    color: var(--black);
                 }
             }
         }
@@ -113,8 +113,8 @@
         font-size: 0.8em ;
     }
     button {
-        color: #Fff;
-        background-color: #00a0EE;
+        color:var(--white);
+        background-color: var(--bluebaby);
         border-radius: 0.2em;
         padding: 0.5em;
         
@@ -127,7 +127,7 @@
     input{
         background-color: transparent;
         padding: 1em;
-        color: #FFF;
+        color: var(--white);
         border-bottom: 1px solid var(--transp-white-1);
         text-align: center;
     }
