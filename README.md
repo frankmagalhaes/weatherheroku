@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 <p align="center">
-  <img alt="Layout da aplicação" width="50%" src="https://github.com/frankmagalhaes/wheaterangular/blob/master/src/assets/referencer.png" />
+  <img alt="Layout da aplicação" width="50%" src="https://github.com/frankmagalhaes/weatherheroku/blob/master/src/assets/referencer.png" />
 </p>
 
 
