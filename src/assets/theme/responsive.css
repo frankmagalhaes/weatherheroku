@@ -1,0 +1,20 @@
+@media screan and (max-width: 800px) {
+  .wrapp, .container {
+    position: relative;
+    width: 100%;
+    top: initial;
+  }
+}
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    height: 0;
+  }
+}
+@media screen and (max-height: 320px) {
+  .wrapp {
+    min-height: 40px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

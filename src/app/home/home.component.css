@@ -1,0 +1,115 @@
+.wrapp {
+  width: 100%;
+  background-color: var(--transp-white-1);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 3em 1.8em;
+  border: 2px slid var(--transp-white-1);
+  border-radius: 0.6em;
+  box-shadow: 0 1.8em 3.7em var(--shadow-light);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: transparent;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px var(--shadow-dark);
+}
+.container .tempu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.container .temperature {
+  color: var(--black);
+  font-size: 4em;
+  text-align: center;
+  font-weight: 900;
+}
+.container .location, .container .tempo {
+  color: var(--black);
+  text-align: center;
+  font-size: 1.2em;
+}
+.container .more-info-label {
+  bottom: 0;
+  color: var(--white);
+  background-color: var(--black);
+  position: relative;
+  top: 1.3em;
+  width: 100%;
+}
+.container .more-info-container {
+  background-color: var(--bck-color);
+  margin-top: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container .more-info-container .info-block {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.container .more-info-container .info-block .info-block-label {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .more-info-container .info-block .info-block-label img {
+  width: 1.5em;
+}
+.container .more-info-container .info-block .info-block-label span {
+  color: var(--black);
+  font-size: 0.8em;
+}
+.container .more-info-container .info-block .info-block-value {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--black);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.search input, .search button {
+  outline: none;
+  border: none;
+  font-size: 0.8em;
+}
+.search button {
+  color: var(--white);
+  background-color: var(--bluebaby);
+  border-radius: 0.2em;
+  padding: 0.5em;
+}
+.search button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.search input {
+  background-color: transparent;
+  padding: 1em;
+  color: var(--white);
+  border-bottom: 1px solid var(--transp-white-1);
+  text-align: center;
+}/*# sourceMappingURL=home.component.css.map */
